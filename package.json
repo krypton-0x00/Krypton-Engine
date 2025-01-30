@@ -1,9 +1,10 @@
 {
   "name": "krypton-engine",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.ts",
+  "type": "module",
   "scripts": {
-    "build":"tsc -b"
+    "build": "tsc -b"
   },
   "keywords": [],
   "author": "",
