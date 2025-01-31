@@ -1,4 +1,9 @@
+let engine: KENGINE.Engine;
 window.onload = () => {
-  let engine = new KENGINE.Engine();
+  engine = new KENGINE.Engine();
   engine.start();
+};
+
+window.onresize = () => {
+  engine.resize();
 };
